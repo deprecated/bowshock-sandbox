@@ -1,3 +1,10 @@
 Sandbox for testing out stuff for Luis/Jorge projects
 
 The idea is to give me freedom to experiment with things without messing up the Dropbox folders. 
+
+* Work flow
++ Make changes on =devel= branch of =bowshock-shape=
++ Do tests on the data here, directly using programs in =bowshock-shape/read-shapes-LL=
++ When it is ready to share:
+  1. merge to =master=
+  2. run =make= to copy to Dropbox
